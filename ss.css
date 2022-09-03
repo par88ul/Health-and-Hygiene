@@ -1,0 +1,164 @@
+body {
+    background: #ededef;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    position: absolute;
+    bottom: -5%;
+    margin: 0px;
+    padding: 0px;
+    height: 37%;
+    width: 69%;
+    left: 30%;
+    display: flex;
+    font-size: 20px;
+}
+
+.selection {
+    height: 145%;
+    width: 38%;
+    position: absolute;
+    top: 5%;
+    right: 105%;
+}
+
+.head {
+    position: absolute;
+    right: 130%;
+    bottom: 85%;
+    font-size: 45px;
+}
+
+.container2 {
+    margin: 0px;
+    padding: 0px;
+    height: 37%;
+    width: 75%;
+    position: absolute;
+    top: 115%;
+    display: flex;
+    font-size: 20px;
+}
+
+.selection2 {
+    height: 175%;
+    width: 36%;
+    position: absolute;
+    top: -4%;
+    left: 100%;
+}
+
+.head2 {
+    position: absolute;
+    bottom: 87%;
+    font-size: 45px;
+}
+
+.container3 {
+    margin: 0px;
+    padding: 0px;
+    height: 37%;
+    width: 68%;
+    position: absolute;
+    top: 161%;
+    right: 31%;
+    display: flex;
+    font-size: 20px;
+}
+
+.selection3 {
+    height: 170%;
+    width: 40%;
+    position: absolute;
+    top: 0%;
+    left: 101%;
+}
+
+.head3 {
+    position: absolute;
+    bottom: 80%;
+    font-size: 45px;
+}
+
+.container4 {
+    position: absolute;
+    bottom: -50%;
+    margin: 0px;
+    padding: 0px;
+    height: 37%;
+    width: 69%;
+    left: 30%;
+    top: 210%;
+    display: flex;
+    font-size: 20px;
+}
+
+.selection4 {
+    height: 145%;
+    width: 38%;
+    position: absolute;
+    top: 7%;
+    right: 105%;
+}
+
+.head4 {
+    position: absolute;
+    right: 125%;
+    bottom: 83%;
+    font-size: 45px;
+}
+
+.container5 {
+    margin: 0px;
+    padding: 0px;
+    height: 37%;
+    width: 75%;
+    position: absolute;
+    top: 260%;
+    display: flex;
+    font-size: 20px;
+}
+
+.selection5 {
+    height: 145%;
+    width: 33%;
+    position: absolute;
+    top: 4%;
+    left: 100%;
+}
+
+.head5 {
+    position: absolute;
+    bottom: 87%;
+    font-size: 45px;
+}
+
+.container6 {
+    position: absolute;
+    bottom: -50%;
+    margin: 0px;
+    padding: 0px;
+    height: 37%;
+    width: 69%;
+    left: 30%;
+    top: 310%;
+    display: flex;
+    font-size: 20px;
+}
+
+.selection6 {
+    height: 145%;
+    width: 38%;
+    position: absolute;
+    top: 7%;
+    right: 105%;
+}
+
+.head6 {
+    position: absolute;
+    right: 123%;
+    bottom: 83%;
+    font-size: 45px;
+}

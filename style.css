@@ -1,0 +1,238 @@
+*{font-family: 'Baloo Bhai 2', cursive;
+    margin: 0;
+    padding: 0;
+   }
+   :root{
+    --navbar-height:30px;
+   }
+   .navbar{
+    display: flex;
+   }
+   .logo{
+    margin: 3px 3px;
+   }
+   .logo img{
+    filter: invert(5%);
+   height: 55px;
+   }
+   .navbar{
+    position: relative;
+   }
+    .navbar ul{
+    display: flex;
+    margin: 10px;
+    padding: 0px;
+   }
+   .navbar::before{
+    content:"";
+    background-color: burlywood;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+   }
+   .navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+   }
+   .navbar ul li a{
+    color:lavender;
+    display: block;
+    padding: 3px 22px;
+    font-size: 1.8rem;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: left;
+   }
+   .navbar ul li a:hover{
+    text-decoration: underline;
+    color:lightpink;
+   }
+   #home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 180px;
+ justify-content:center;
+ align-items:center;
+ }
+ #home::before{
+    content:"";
+    background-image: url('Proj Img/b.jpg');
+    position: absolute;
+    height: 85%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    }
+    .btn{
+    background-color:rgb(246, 250, 34);;
+    border-radius: 10px solid rgb(125,199,233);
+    outline: none;
+    cursor: pointer;
+    display: inline;
+    padding: 10px;
+    font-size: 14px;
+    position: absolute;
+    right: 20%;
+   }
+    .h-primary{ font-size: 35px;
+    color:rgb(246, 250, 34);
+    position: absolute;
+    right: 60px;
+    top: 4%;
+    }
+   section p{ font-size:larger;
+    color: cornsilk;
+    position: absolute;
+    top: 75px;
+    width: 550px;
+    right: 1%;
+    }
+    section h2{justify-content: center;
+    margin: 72px;
+    padding: 14px;
+    font-size:40px;
+    color:black;
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    }
+    body{
+    margin: 0px;
+    padding: 0px;
+   }
+   .container{
+   width: 1280px;
+   margin: 70px auto 0;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   position: absolute;
+   bottom: -1%;
+   right: 3%;
+   }
+   .container .box{
+    position: relative;
+    width: 230px;
+ height: 230px;
+ margin: 10px;
+ box-sizing: border-box;
+ display: inline-block;
+}
+.container .box .imgBox{
+    position: relative;
+   }
+   .container .box .imgBox img{
+    max-width: 100%;
+    height: 230px;
+   }
+   .container .box:hover .imgBox img{
+    transform: scale(1.2);
+    cursor: pointer;
+   }
+   .container .box .details{
+    position: absolute;
+    top: -20px;
+    left: -15px;
+    bottom: -20px;
+    right: -15px;
+    transform: scaleY(0);
+    background-color: #eeee;
+    transition:.5s;
+   }
+   .container .box:hover .details {
+    transform: scaleY(1);
+    cursor: pointer;
+   }
+   .container div img{
+    height: 10px;
+    width: 99%;
+   }
+   .container .box .details .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 0px;
+   }
+   .container .box .details .content h2{
+    margin: 10px;
+    padding: 1px;
+    font-size: 20px;
+    color: crimson;
+   }
+    .container .box .details .content p{
+    margin: 10px 0 0;
+    padding: 0px;
+   }
+   .container .box h1{
+    color: #E91E63;
+    font-size: 24px;
+    position: absolute;
+    top: 85%;
+    left: 15%;
+   }
+   /* contact */
+   #contact::before{
+    content:"";
+    position: absolute;
+ background:url('Proj Img/marbel.jpg');
+ width: 100%;
+ height: 85%;
+ top: 110%;
+ z-index: -1;
+ opacity: 0.8;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .item input,
+   .item textarea{
+    width: 90%;
+    padding: 0.2rem;
+   }
+   .item{
+    position: absolute;
+    color:cornsilk;
+    top: 111%;
+    right: 37%;
+    justify-content: center;
+    align-items: center;
+   }
+   .item label{
+    font-size: 1.5rem;
+   }
+   .templet{
+   top: 100%;
+   left: 39%;
+   font-size: 40px;
+   margin: 5px;
+   padding: 3px;
+   }
+   .list-inline{
+    list-style: none;
+    margin: 5px;
+    padding: 2px;
+    position: absolute;
+    top: 182%;
+    left: 38%;
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    gap: 0.5rem;
+   }
+   .list-inline:hover{
+    cursor: pointer;
+   }
+   footer{
+    color:black;
+    position: absolute;
+    align-items: center;
+    top: 195%;
+    right: 35%;
+   }
+   
+   
+   

@@ -1,0 +1,146 @@
+.container {
+    width: 70%;
+    height: 90%;
+    position: absolute;
+    top: 66%;
+    left: 15%;
+}
+
+body {
+    background-color: #eee6e3;
+}
+
+.sentence {
+    position: absolute;
+    top: 66%;
+    left: 0%;
+    font-size: 24px;
+}
+
+.primary-section {
+    position: absolute;
+    top: 58%;
+    left: 25%;
+}
+
+.primary {
+    position: absolute;
+    top: 188%;
+    left: -20%;
+    font-size: 25px;
+}
+
+.container2 {
+    width: 70%;
+    height: 90%;
+    position: absolute;
+    top: 220%;
+    left: 15%;
+}
+
+.sentence2 {
+    position: absolute;
+    top: 66%;
+    left: -35%;
+    width: 170%;
+    font-size: 24px;
+}
+
+.primary-section2 {
+    position: absolute;
+    top: 210%;
+    left: 33%;
+    font-size: 34px;
+}
+
+.container3 {
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    top: 98%;
+    left: 4%;
+}
+
+.select1 {
+    position: absolute;
+    width: 190%;
+    height: 100%;
+    top: 80%;
+    left: -16%;
+}
+
+.primary2 {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    font-size: 34px;
+}
+
+.container4 {
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    top: 215%;
+    left: 4%;
+}
+
+.select2 {
+    position: absolute;
+    width: 190%;
+    height: 100%;
+    top: 80%;
+    left: -16%;
+}
+
+.primary3 {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    font-size: 34px;
+}
+
+.container5 {
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    top: 336%;
+    left: 4%;
+}
+
+.select3 {
+    position: absolute;
+    width: 190%;
+    height: 100%;
+    top: 80%;
+    left: -16%;
+}
+
+.primary4 {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    font-size: 34px;
+} 
+
+ .container6 {
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    top: 440%;
+    left: 4%;
+}
+
+.select4 {
+    position: absolute;
+    width: 190%;
+    height: 100%;
+    top: 80%;
+    left: -16%;
+}
+
+.primary5 {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    font-size: 34px;
+}
